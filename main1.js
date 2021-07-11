@@ -4,13 +4,13 @@ import 'firebase/firestore';
     
 
 const firebaseConfig = {
-	    apiKey: "AIzaSyAlPmk8Vdg2SoOs6qwirkMe5xBMLNNIS_Q",
-    authDomain: "meetclone-2eee6.firebaseapp.com",
-    projectId: "meetclone-2eee6",
-    storageBucket: "meetclone-2eee6.appspot.com",
-    messagingSenderId: "1045724871970",
-    appId: "1:1045724871970:web:39d8aa7bbaac7dc457f97b",
-    measurementId: "G-EYBQTT6NV8"
+	 apiKey: "AIzaSyD8Jtv3uCzjhybt_RxgSL7SdhbOr5okBwE",
+  authDomain: "ms-engage-shorya.firebaseapp.com",
+  projectId: "ms-engage-shorya",
+  storageBucket: "ms-engage-shorya.appspot.com",
+  messagingSenderId: "629511390146",
+  appId: "1:629511390146:web:93d9b7cf90d348bb7bcc5b",
+  measurementId: "G-YZ3HQN3B2D"
 
 };
 
