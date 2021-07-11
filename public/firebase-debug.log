@@ -1,0 +1,29 @@
+[debug] [2021-07-05T08:51:44.952Z] ----------------------------------------------------------------------
+[debug] [2021-07-05T08:51:44.955Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shory\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-05T08:51:44.955Z] CLI Version:   9.14.0
+[debug] [2021-07-05T08:51:44.955Z] Platform:      win32
+[debug] [2021-07-05T08:51:44.955Z] Node Version:  v16.3.0
+[debug] [2021-07-05T08:51:44.957Z] Time:          Mon Jul 05 2021 14:21:44 GMT+0530 (India Standard Time)
+[debug] [2021-07-05T08:51:44.957Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-05T08:51:44.964Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-05T08:51:44.964Z] > authorizing via signed-in user (shoryakmr2719@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\shory\OneDrive\Desktop\Engage-Firebase\webrtc-firebase-demo-main\webrtc-firebase-demo-main
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 

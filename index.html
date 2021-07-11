@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebRTC Demo</title>
+  </head>
+  <body>
+    <img src="callup Logo.png" width="200px"><br><br>
+    <br>
+    <h2 class="typewriter">Start your Webcam and welcome to CallupX</h2><br><br>
+    <div class="videos">
+      <span>
+        <h3 class="lewandowski">Local Stream</h3>
+        <video id="webcamVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <h3 class="lewandowski">Remote Stream</h3>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+    </div>
+    <button class ="btn" id="theme_button">Dark Mode</button>
+    <button class ="btn" id="webcamButton">Initial Start webcam</button>
+    <button class ="btn" id="muteButton">Mute</button>
+    <button class ="btn" id="presentButton">Present</button>
+    <button class ="btn" id="recordButton">Record</button>
+    <button class ="btn" id="stopwebcam">Stop webcam</button>
+    <h2>Create a new Call</h2>
+    <button class="btn" id="callButton" disabled>Create Call</button>
+
+    <h2>Join a Call</h2>
+    <p>Answer the call from a different browser window or device</p>
+    
+    <input id="callInput" />
+    <button class="btn" id="answerButton" disabled>Answer</button>
+
+    <h2>Hangup</h2>
+
+    <button class="btn" id="hangupButton" disabled>Hangup</button><br><br>
+
+    <script type="module" src="/main1.js"></script>
+    <div class="lewandowski9">
+      <h1 id="uh">
+        <center>
+         About CallUpX
+        </center>
+      </h1>
+      <p id="yh">
+        We are a new Video calling website where you can easily interact with your friends.The beta version is up and online and new features are going to be added soon.
+      </p>
+    </div>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+             $("#uh").click(function(){
+                $("#yh").slideToggle(500)
+             });
+           });
+  </script>
+</html>
